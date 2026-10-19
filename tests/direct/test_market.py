@@ -172,6 +172,15 @@ def test_validator_refetches_full_source(direct_deploy,direct_vm,direct_accounts
     c=direct_deploy(str(SOURCE),*args(direct_accounts));mocks(direct_vm,'open-zero');c.admit(0)
     mocks(direct_vm,'open-zero',body=b'changed');assert direct_vm.run_validator() is False
 
+@pytest.mark.parametrize('substantively_correct',[True,False])
+def test_empty_unknown_anchors_still_require_full_source_audit(direct_deploy,direct_vm,direct_accounts,substantively_correct):
+    c=direct_deploy(str(SOURCE),*args(direct_accounts,'screen'))
+    answer={'decisions':['UNKNOWN','PASS'],'anchors':[[],[0]]}
+    mocks(direct_vm,'unknown-one',answer=answer);c.admit(1)
+    mocks(direct_vm,'unknown-one',answer=answer,audit={'checks':[substantively_correct,True]})
+    assert direct_vm.run_validator() is substantively_correct
+    assert c.get_state()['raw'][1]==4 and c.get_state()['assessments'][1]['status']=='REVIEW'
+
 @pytest.mark.parametrize('change',['extra','missing','enum','anchors','bool','duplicate','empty','wrong-count'])
 def test_malformed_model_cannot_convert_raw_inventory(direct_deploy,direct_vm,direct_accounts,change):
     c=direct_deploy(str(SOURCE),*args(direct_accounts));bad=assessment('open-zero');before=c.get_state()

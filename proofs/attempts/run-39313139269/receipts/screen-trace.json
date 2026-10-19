@@ -1,0 +1,182 @@
+[
+  {
+    "label": "screen-admit-0",
+    "caller": 2,
+    "method": "admit",
+    "args": [
+      0
+    ],
+    "transaction": "0x5be7544955f8966ceecfe2d07ec0f86af6b7e9d4cb00689af2c6a36b33c4ba16",
+    "state_before": {
+      "assessments": [
+        null,
+        null,
+        null
+      ],
+      "configuration": {
+        "accounts": [
+          "0x558ee2e24e9210d92703b69e5eecfd697a1373a1",
+          "0x991578966790e2d5028f700ced2d84895f8bccd2",
+          "0xb81ea330f88454dcf9e7348dbf0f972f3b486d6d"
+        ],
+        "criteria": [
+          "The described units may be transferred to another holder without issuer approval.",
+          "The described units remain valid indefinitely without any expiry deadline."
+        ],
+        "documents": [
+          {
+            "lot": 0,
+            "sha256": "917213d11c007ae590ebff4cbe50a4b0d090a4031f8f7cd601e069c45dcb9256",
+            "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/blocked-zero.json"
+          },
+          {
+            "lot": 1,
+            "sha256": "eded6dbfcf4eba7c2381b650bf9876ecb8f5e1f101f4102f998dbbb074f87f01",
+            "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/unknown-one.json"
+          },
+          {
+            "lot": 2,
+            "sha256": "a9aca98dd8c53d2cab0e8f940b5809f124e166e1dda3557ca2797ceac9820eee",
+            "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/buyer-two.json"
+          }
+        ],
+        "market": "voucher-market",
+        "quote_credits": [
+          0,
+          0,
+          100
+        ],
+        "raw_units": [
+          6,
+          4,
+          0
+        ],
+        "repository": "mohammadisina1988-jpg/cross-ledger"
+      },
+      "orders": [],
+      "phase": "OPEN",
+      "quote": [
+        0,
+        0,
+        100
+      ],
+      "raw": [
+        6,
+        4,
+        0
+      ],
+      "seals": [
+        false,
+        false,
+        false
+      ],
+      "settlement": {},
+      "transfers": [],
+      "units": [
+        0,
+        0,
+        0
+      ]
+    },
+    "state": {
+      "assessments": [
+        {
+          "assessment": {
+            "anchors": [
+              [
+                0,
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "decisions": [
+              "FAIL",
+              "PASS"
+            ]
+          },
+          "lot": 0,
+          "sha256": "917213d11c007ae590ebff4cbe50a4b0d090a4031f8f7cd601e069c45dcb9256",
+          "source": {
+            "clauses": [
+              "The marketing headline calls these units portable and perpetual. That headline is not the operative transfer rule.",
+              "The current operative rule requires prior approval from the issuer before a holder can transfer any unit in this lot.",
+              "The units never expire and remain valid indefinitely, regardless of whether transfer approval is granted."
+            ],
+            "lot": 0,
+            "market": "voucher-market"
+          },
+          "status": "BLOCKED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/blocked-zero.json"
+        },
+        null,
+        null
+      ],
+      "configuration": {
+        "accounts": [
+          "0x558ee2e24e9210d92703b69e5eecfd697a1373a1",
+          "0x991578966790e2d5028f700ced2d84895f8bccd2",
+          "0xb81ea330f88454dcf9e7348dbf0f972f3b486d6d"
+        ],
+        "criteria": [
+          "The described units may be transferred to another holder without issuer approval.",
+          "The described units remain valid indefinitely without any expiry deadline."
+        ],
+        "documents": [
+          {
+            "lot": 0,
+            "sha256": "917213d11c007ae590ebff4cbe50a4b0d090a4031f8f7cd601e069c45dcb9256",
+            "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/blocked-zero.json"
+          },
+          {
+            "lot": 1,
+            "sha256": "eded6dbfcf4eba7c2381b650bf9876ecb8f5e1f101f4102f998dbbb074f87f01",
+            "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/unknown-one.json"
+          },
+          {
+            "lot": 2,
+            "sha256": "a9aca98dd8c53d2cab0e8f940b5809f124e166e1dda3557ca2797ceac9820eee",
+            "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/buyer-two.json"
+          }
+        ],
+        "market": "voucher-market",
+        "quote_credits": [
+          0,
+          0,
+          100
+        ],
+        "raw_units": [
+          6,
+          4,
+          0
+        ],
+        "repository": "mohammadisina1988-jpg/cross-ledger"
+      },
+      "orders": [],
+      "phase": "OPEN",
+      "quote": [
+        0,
+        0,
+        100
+      ],
+      "raw": [
+        6,
+        4,
+        0
+      ],
+      "seals": [
+        false,
+        false,
+        false
+      ],
+      "settlement": {},
+      "transfers": [],
+      "units": [
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

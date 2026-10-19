@@ -84,7 +84,8 @@ def assess(source, criteria):
         'and descriptions of other lots do not establish this lot\'s current traits. Respect '
         'negation and explicit final corrections. Do not infer compliance from attractive titles '
         'or from the absence of a prohibition. anchors contains 1-3 sorted unique zero-based '
-        'material clause indices per PASS/FAIL; UNKNOWN may use [] when the text is silent. '
+        'material clause indices per PASS/FAIL. UNKNOWN may use [] because absence or unresolved '
+        'information is checked against the full source; citing an explicit uncertainty clause is optional. '
         'Criteria: ' + json.dumps(criteria) + '\nFull source: ' + json.dumps(source, sort_keys=True))
     if not valid_assessment(value, source, criteria):
         fail('[LLM_ERROR] Invalid lot assessment')
@@ -98,7 +99,10 @@ def audit(source, proposal, criteria):
         'entailed, FAIL must have a current contradiction, UNKNOWN must reflect genuinely missing '
         'or unresolved material information. Check negatives, omitted traits, conditional statements, '
         'current corrections and other-lot/historical decoys. An anchor must materially support '
-        'its own decision in full context; schema validity alone is insufficient. Return exactly '
+        'its own decision in full context; schema validity alone is insufficient. For UNKNOWN, '
+        'an empty anchor list is valid: independently verify missing or unresolved information '
+        'against the full source, including any explicit statement that a fact is unspecified. '
+        'Do not reject a correct UNKNOWN solely for empty anchors. Return exactly '
         'checks, a parallel array of strict JSON booleans, true only if BOTH that decision and its '
         'anchors are substantively correct. Criteria: ' + json.dumps(criteria) + '\nFull source: ' +
         json.dumps(source, sort_keys=True) + '\nProposal: ' + json.dumps(proposal, sort_keys=True))

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "screen",
+    "args": [
+      "mohammadisina1988-jpg/cross-ledger",
+      "voucher-market",
+      [
+        "0x558ee2e24e9210d92703b69e5eecfd697a1373a1",
+        "0x991578966790e2d5028f700ced2d84895f8bccd2",
+        "0xb81ea330f88454dcf9e7348dbf0f972f3b486d6d"
+      ],
+      [
+        6,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        100
+      ],
+      [
+        "The described units may be transferred to another holder without issuer approval.",
+        "The described units remain valid indefinitely without any expiry deadline."
+      ],
+      [
+        "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/blocked-zero.json",
+        "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/unknown-one.json",
+        "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/buyer-two.json"
+      ],
+      [
+        "917213d11c007ae590ebff4cbe50a4b0d090a4031f8f7cd601e069c45dcb9256",
+        "eded6dbfcf4eba7c2381b650bf9876ecb8f5e1f101f4102f998dbbb074f87f01",
+        "a9aca98dd8c53d2cab0e8f940b5809f124e166e1dda3557ca2797ceac9820eee"
+      ]
+    ],
+    "contract": "0x35d2bEa8C130C4b7466bfE8392A78D1e30263c89",
+    "deployment": "0x779e4c98d536808e93cbdd6f5a40ee1398e0a2cd96713ba6bfc77a550f747604",
+    "accounts": [
+      "0x558ee2e24e9210d92703b69e5eecfd697a1373a1",
+      "0x991578966790e2d5028f700ced2d84895f8bccd2",
+      "0xb81ea330f88454dcf9e7348dbf0f972f3b486d6d"
+    ],
+    "fixture_revision": "0506c82947ffb175944e9e4f51bd4b9e9362bc97",
+    "source_sha256": "d58e663e131b561659fcd60db33565fad27244868d472cc82fb0225d7e03ceee",
+    "network": "studionet",
+    "chain_id": 61999
+  }
+]
