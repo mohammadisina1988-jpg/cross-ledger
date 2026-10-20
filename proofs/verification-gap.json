@@ -1,0 +1,155 @@
+{
+  "scope": "gap",
+  "mode": "fresh-rpc-and-state",
+  "verified_at": "2026-10-19T20:02:34.187Z",
+  "source_sha256": "5dd44d94ad53ef895f1083a19308d7a412be90d941c9ea4832426726b925201a",
+  "instances": [
+    {
+      "id": "gap",
+      "contract": "0xf1f684C92839baf68D779aB3EBa58d3ED4944Af1",
+      "phase": "CLEARED",
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "units": [
+        6,
+        0,
+        0
+      ],
+      "quote": [
+        0,
+        0,
+        100
+      ],
+      "settlement": {
+        "fills": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "imbalance": 0,
+        "price": 0,
+        "status": "NO_CROSS",
+        "trades": [],
+        "volume": 0
+      },
+      "transfers": []
+    }
+  ],
+  "transactions": [
+    {
+      "label": "gap-deployment",
+      "hash": "0x7fbfc33ac7ef2139397b62e9bb171990d0ab2107f371cea38648b292524bd574",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "gap-admit-0",
+      "hash": "0x868cd8a77a6907f464cbe95faba4ed2a7be2996fe6de9b01dc71eb5667dcc1b1",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "gap-ask-0",
+      "hash": "0x46f7bdfd6f109214a485202cd17b27fed3b49797f365916eb7e5d3439bf64cf6",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "gap-bid",
+      "hash": "0x15d777f5044c8bad880522c7fd26d490ff70c9836f77417976dd622602cc5d3e",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "gap-seal-0",
+      "hash": "0xf8483b555a6625b31a4ba5f064cd2787cff29c35401c2629ec42fd407bbbe81a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "gap-seal-1",
+      "hash": "0x125130f76c7b0514e3a66533b57c5d22f48a47253bab4a131f23221f3e93092e",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "gap-seal-2",
+      "hash": "0xa3c4f33db92f8d82f7c54d4db8abd38423fb0d5e0a6171f3514782b4ddd2fab4",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "gap-clear",
+      "hash": "0x908aea48bc0bfc0a338422a4d33e37c193eeb879b31afce6612d05b349ff8c3d",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    }
+  ],
+  "transaction_calldata_checked": true,
+  "rejection_bytes_checked": true,
+  "live_state_match": true
+}

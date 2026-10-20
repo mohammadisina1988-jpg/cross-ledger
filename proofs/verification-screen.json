@@ -1,0 +1,164 @@
+{
+  "scope": "screen",
+  "mode": "fresh-rpc-and-state",
+  "verified_at": "2026-10-19T20:05:05.888Z",
+  "source_sha256": "5dd44d94ad53ef895f1083a19308d7a412be90d941c9ea4832426726b925201a",
+  "instances": [
+    {
+      "id": "screen",
+      "contract": "0xeDDB69d9cBeF0Cf9C0bA4cFEC518A09B03157fE9",
+      "phase": "CLEARED",
+      "raw": [
+        6,
+        4,
+        0
+      ],
+      "units": [
+        0,
+        0,
+        0
+      ],
+      "quote": [
+        0,
+        0,
+        100
+      ],
+      "settlement": {
+        "fills": [
+          [
+            0,
+            0
+          ]
+        ],
+        "imbalance": 0,
+        "price": 0,
+        "status": "NO_CROSS",
+        "trades": [],
+        "volume": 0
+      },
+      "transfers": []
+    }
+  ],
+  "transactions": [
+    {
+      "label": "screen-deployment",
+      "hash": "0x75e06ea167576df401e2059f70e5156959e4b60b70c2aa1543b7760b6909185f",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "screen-admit-0",
+      "hash": "0xad920ecab7c5cf9499c2a664b15011b042791479db60a0562d31f32a9e9fef32",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "screen-admit-1",
+      "hash": "0xa087f9df3c898646381b4e0c47c994fefd9242708fece751b10d8cdce8db1c3a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "screen-blocked-ask",
+      "hash": "0x993f059867add48b0ad1f69695a3b1fdd8217c4071d8de8122073722b270030d",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "screen-bid",
+      "hash": "0x13757c155f59ba97babe8075a1f137f416b58245222c074801d264130f66f459",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "screen-seal-0",
+      "hash": "0x9753cf5e4fc7938104f8201e78f3f41f4a1537713b368fbce7e00469d67a51ec",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "screen-seal-1",
+      "hash": "0x438bbc008ef9fe55606515af8f61b55b8639ce5b7e67be008406cbc7098cc33a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "screen-seal-2",
+      "hash": "0xa707e7272733faef1f0f913c7ad1fdfc233f5d3edc895a3dc5482aad1f52182a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "screen-clear",
+      "hash": "0x2c213a320b9eae6ea39363190eef45ddee1dce848c8e5c090dd1c9d2fbc6a1cd",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    }
+  ],
+  "transaction_calldata_checked": true,
+  "rejection_bytes_checked": true,
+  "live_state_match": true
+}

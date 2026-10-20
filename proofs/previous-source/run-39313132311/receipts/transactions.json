@@ -1,0 +1,13 @@
+{
+  "source_sha256": "d58e663e131b561659fcd60db33565fad27244868d472cc82fb0225d7e03ceee",
+  "hashes": {
+    "gap-deployment": "0x8fcba1d01715b960f96e8c033b28db4d7f30b4dd1107890c8e66459d0a5dfd92",
+    "gap-admit-0": "0x6746d4cf59dfccec7163e95e5d3ee4c943d1443af8c7413c031aab253bec4581",
+    "gap-ask-0": "0x71d0677126bcea676f3dc24b7ef5a5a2e48f79065d22808bc23bd2f46559608e",
+    "gap-bid": "0xc43d53b9e726b1934be15515f839d38b75e0ccf84fe46abfa2c1138dbb571ec0",
+    "gap-seal-0": "0xf18612e36f1f693e9fd4d5be4b0a1e1575a1c0c687c3c4dad0aaff630a59bd96",
+    "gap-seal-1": "0xc8c90ff4dbae28a8a0e1673d3f4b5ba9442163da8be97d95c5e40d0685937f8e",
+    "gap-seal-2": "0x27422e30844f1cf69743b02293cab300bc2b02b4c59b2e38abf4dd51f5553e28",
+    "gap-clear": "0xa8b0f67fcb72d96ae231bbb0b3e62235e473e65f669bd368e2bb5350e367b049"
+  }
+}

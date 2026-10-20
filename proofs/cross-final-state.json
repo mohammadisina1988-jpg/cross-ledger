@@ -1,0 +1,190 @@
+{
+  "assessments": [
+    {
+      "assessment": {
+        "anchors": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "decisions": [
+          "PASS",
+          "PASS"
+        ]
+      },
+      "lot": 0,
+      "sha256": "d443c21169c63b485b068fb9f56f9a4a73648cb27ac979eca68d8bb7b3cf2ee8",
+      "source": {
+        "clauses": [
+          "Every unit in this lot may be transferred freely to another holder, without any issuer approval or consent.",
+          "These units remain valid indefinitely. There is no expiry date or deadline attached to them."
+        ],
+        "lot": 0,
+        "market": "voucher-market"
+      },
+      "status": "ADMITTED",
+      "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/open-zero.json"
+    },
+    {
+      "assessment": {
+        "anchors": [
+          [
+            1
+          ],
+          [
+            0
+          ]
+        ],
+        "decisions": [
+          "PASS",
+          "PASS"
+        ]
+      },
+      "lot": 1,
+      "sha256": "c4135011a4f6f008d64051ff0d4532e50e66e4a9b4d9961f06823ddf722c841b",
+      "source": {
+        "clauses": [
+          "Unlike our historical vouchers which expired after ninety days, the units in this current lot never expire.",
+          "The holder is free to assign these current units to any other holder; permission from the issuer is not required."
+        ],
+        "lot": 1,
+        "market": "voucher-market"
+      },
+      "status": "ADMITTED",
+      "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/open-one.json"
+    },
+    null
+  ],
+  "configuration": {
+    "accounts": [
+      "0x64352f87caec927741eb9317cfafcaa894d08b69",
+      "0x88441b7056a1c3efcc0719c4af45f29d3b72ee8d",
+      "0x0e12d49a57842f7830a48f5ff32338207e6b66ef"
+    ],
+    "criteria": [
+      "The described units may be transferred to another holder without issuer approval.",
+      "The described units remain valid indefinitely without any expiry deadline."
+    ],
+    "documents": [
+      {
+        "lot": 0,
+        "sha256": "d443c21169c63b485b068fb9f56f9a4a73648cb27ac979eca68d8bb7b3cf2ee8",
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/open-zero.json"
+      },
+      {
+        "lot": 1,
+        "sha256": "c4135011a4f6f008d64051ff0d4532e50e66e4a9b4d9961f06823ddf722c841b",
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/open-one.json"
+      },
+      {
+        "lot": 2,
+        "sha256": "a9aca98dd8c53d2cab0e8f940b5809f124e166e1dda3557ca2797ceac9820eee",
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/buyer-two.json"
+      }
+    ],
+    "market": "voucher-market",
+    "quote_credits": [
+      0,
+      0,
+      100
+    ],
+    "raw_units": [
+      6,
+      4,
+      0
+    ],
+    "repository": "mohammadisina1988-jpg/cross-ledger"
+  },
+  "orders": [
+    {
+      "filled": 5,
+      "id": 0,
+      "limit": 4,
+      "owner": 0,
+      "quantity": 5,
+      "side": "ASK",
+      "status": "SETTLED"
+    },
+    {
+      "filled": 2,
+      "id": 1,
+      "limit": 6,
+      "owner": 1,
+      "quantity": 4,
+      "side": "ASK",
+      "status": "SETTLED"
+    },
+    {
+      "filled": 7,
+      "id": 2,
+      "limit": 10,
+      "owner": 2,
+      "quantity": 7,
+      "side": "BID",
+      "status": "SETTLED"
+    }
+  ],
+  "phase": "CLEARED",
+  "quote": [
+    30,
+    12,
+    58
+  ],
+  "raw": [
+    0,
+    0,
+    0
+  ],
+  "seals": [
+    true,
+    true,
+    true
+  ],
+  "settlement": {
+    "fills": [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        7
+      ]
+    ],
+    "imbalance": 2,
+    "price": 6,
+    "status": "TRADED",
+    "trades": [
+      {
+        "ask": 0,
+        "bid": 2,
+        "quantity": 5
+      },
+      {
+        "ask": 1,
+        "bid": 2,
+        "quantity": 2
+      }
+    ],
+    "volume": 7
+  },
+  "transfers": [
+    {
+      "from": 2,
+      "quantity": 2,
+      "to": 0
+    }
+  ],
+  "units": [
+    3,
+    2,
+    5
+  ]
+}

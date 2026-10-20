@@ -1,0 +1,33 @@
+{
+  "assembled_at": "2026-10-20T06:39:43.741Z",
+  "source_sha256": "5dd44d94ad53ef895f1083a19308d7a412be90d941c9ea4832426726b925201a",
+  "runs": [
+    {
+      "scenario": "cross",
+      "run": 39314697449,
+      "revision": "88f0327810437f75aef89f0c2c65975e40e0531d",
+      "workflow_conclusion": "success",
+      "scenario_complete": true,
+      "workflow": "https://github.com/mohammadisina1988-jpg/cross-ledger/actions/runs/39314697449",
+      "artifact": "studionet-proofs"
+    },
+    {
+      "scenario": "gap",
+      "run": 39314711832,
+      "revision": "88f0327810437f75aef89f0c2c65975e40e0531d",
+      "workflow_conclusion": "success",
+      "scenario_complete": true,
+      "workflow": "https://github.com/mohammadisina1988-jpg/cross-ledger/actions/runs/39314711832",
+      "artifact": "studionet-proofs"
+    },
+    {
+      "scenario": "screen",
+      "run": 39314847975,
+      "revision": "88f0327810437f75aef89f0c2c65975e40e0531d",
+      "workflow_conclusion": "success",
+      "scenario_complete": true,
+      "workflow": "https://github.com/mohammadisina1988-jpg/cross-ledger/actions/runs/39314847975",
+      "artifact": "studionet-proofs"
+    }
+  ]
+}

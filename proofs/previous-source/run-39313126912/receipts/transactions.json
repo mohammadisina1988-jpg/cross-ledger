@@ -1,0 +1,17 @@
+{
+  "source_sha256": "d58e663e131b561659fcd60db33565fad27244868d472cc82fb0225d7e03ceee",
+  "hashes": {
+    "cross-deployment": "0xbbb14297a03fd37d9d53a9bdd7cc3d7e969e3d56d9d011c58fd2fbf7689f2a19",
+    "cross-admit-0": "0xe32abb1382115374534dc4a351ed772499dd9bd293a751b12d75ed1504fabcc1",
+    "cross-admit-1": "0x87a6d40928e90ec0908284fc17ff404bd1429ea507ab6632fc609a1dd50f07d3",
+    "cross-ask-0": "0x47ed330dedac02b2f5afcad09727daea6437a32b5d838dcefa00e1aa71cf4be2",
+    "cross-ask-1": "0xeba02dd93843406ac5cf0ed04a627b2e7a9b9dd9eefed2073346355b503b71c7",
+    "cross-bid": "0x249306f9e8cc46635bcf1b98f4adda27d58a906c444607c7ec1b52dfcfef7659",
+    "cross-unauthorized-cancel": "0xd22ab91c7b1fb7ab874763052259f37aa3b9be0098c814426401c1418cede967",
+    "cross-seal-0": "0x00d3f208e84720e212a1c23660ed0274f47da499be068ec073a0f0efeb5b1325",
+    "cross-seal-1": "0x3c2e468c82390226b9981dd3e55424c3f11a5eede32d6da6cb1cf8e28fb146d4",
+    "cross-seal-2": "0xadcb56cfdb606d2b8263afd735b2cff2d88d9826e66ed805078ce2cefd247aec",
+    "cross-clear": "0x839d22cab25dc50648a9defcfca711e2833fc9e5eda4f0a65f8d0c8608d375dc",
+    "cross-transfer": "0x5385ad5a662ccabf31ff245e4d388fb30134a059f56b74d98d9062f760365c75"
+  }
+}

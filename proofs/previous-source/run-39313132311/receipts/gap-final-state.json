@@ -1,0 +1,133 @@
+{
+  "assessments": [
+    {
+      "assessment": {
+        "anchors": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "decisions": [
+          "PASS",
+          "PASS"
+        ]
+      },
+      "lot": 0,
+      "sha256": "d443c21169c63b485b068fb9f56f9a4a73648cb27ac979eca68d8bb7b3cf2ee8",
+      "source": {
+        "clauses": [
+          "Every unit in this lot may be transferred freely to another holder, without any issuer approval or consent.",
+          "These units remain valid indefinitely. There is no expiry date or deadline attached to them."
+        ],
+        "lot": 0,
+        "market": "voucher-market"
+      },
+      "status": "ADMITTED",
+      "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/open-zero.json"
+    },
+    null,
+    null
+  ],
+  "configuration": {
+    "accounts": [
+      "0x9d91eb7b399f174b5a21a86a663996358c8dee10",
+      "0x119763a40fcea5c77e70292c55b45bd43c8240e5",
+      "0xf0f0f8a067b86e0c8454405bda3bf6db93de086a"
+    ],
+    "criteria": [
+      "The described units may be transferred to another holder without issuer approval.",
+      "The described units remain valid indefinitely without any expiry deadline."
+    ],
+    "documents": [
+      {
+        "lot": 0,
+        "sha256": "d443c21169c63b485b068fb9f56f9a4a73648cb27ac979eca68d8bb7b3cf2ee8",
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/open-zero.json"
+      },
+      {
+        "lot": 1,
+        "sha256": "242e462b52dfad04a7435681103871ace40c33391ea296e47dab5e20cffcfffa",
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/empty-one.json"
+      },
+      {
+        "lot": 2,
+        "sha256": "a9aca98dd8c53d2cab0e8f940b5809f124e166e1dda3557ca2797ceac9820eee",
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/buyer-two.json"
+      }
+    ],
+    "market": "voucher-market",
+    "quote_credits": [
+      0,
+      0,
+      100
+    ],
+    "raw_units": [
+      6,
+      0,
+      0
+    ],
+    "repository": "mohammadisina1988-jpg/cross-ledger"
+  },
+  "orders": [
+    {
+      "filled": 0,
+      "id": 0,
+      "limit": 9,
+      "owner": 0,
+      "quantity": 4,
+      "side": "ASK",
+      "status": "SETTLED"
+    },
+    {
+      "filled": 0,
+      "id": 1,
+      "limit": 7,
+      "owner": 2,
+      "quantity": 4,
+      "side": "BID",
+      "status": "SETTLED"
+    }
+  ],
+  "phase": "CLEARED",
+  "quote": [
+    0,
+    0,
+    100
+  ],
+  "raw": [
+    0,
+    0,
+    0
+  ],
+  "seals": [
+    true,
+    true,
+    true
+  ],
+  "settlement": {
+    "fills": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "imbalance": 0,
+    "price": 0,
+    "status": "NO_CROSS",
+    "trades": [],
+    "volume": 0
+  },
+  "transfers": [],
+  "units": [
+    6,
+    0,
+    0
+  ]
+}

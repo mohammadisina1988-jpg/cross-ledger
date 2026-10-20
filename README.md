@@ -18,6 +18,10 @@ node --test tests/rpc-preflight.test.cjs
 python -m pytest tests/direct -q
 ```
 
+The 70 direct tests explicitly run validator callbacks, check reserve refunds and ownership enforcement, enumerate all 1,296 small four-order books against exhaustive feasible-fill searches, and exercise 48 generated books with cancellations. A separate JavaScript per-unit ticket oracle replays actual direct-mode states and the live traces. Seven transport tests ensure read-only gas-price retries never replay signed sends. Direct-mode web/model responses are mocked; live receipts test actual consensus.
+
 [Contract](contracts/cross_ledger.py) · [Design and limits](docs/design.md) · [Proofs](proofs/README.md) · [Submission text](docs/submission.md).
+
+StudioNet: [contract explorer](https://explorer-studio.genlayer.com/address/0xb80E123816d7b52d581b0cE4d806073A2bC4BfAE). Three markets on the current source have twenty-nine finalized majority-agreement receipts, including two expected rejections. Complete traces verify partial fills, excess-reserve refunds, a buyer's native-unit transfer, noncrossing refunds and blocked/uncertain source descriptions. All receipts, actual signers/calldata, full votes, exact code and current balances pass independent offline and fresh verification. Earlier-source successes and the rejected UNKNOWN attempt remain available separately.
 
 Uniform-price auctions are established mechanisms. [Deutsche Börse's auction overview](https://www.cashmarket.deutsche-boerse.com/cash-en/trading/Xetra/continuous-trading-with-auctions) describes maximum executable volume and minimum overhang. CrossLedger uses its own bounded price grid and lowest-price final tie-break; it does not reproduce an exchange's full rulebook or claim incentive compatibility. The new code is the native lot conversion, signed book controller, escrow settlement and independent market oracles. Generic CLI journaling, receipt decoding, encrypted CI-wallet setup and the Windows test workaround reuse attributed MIT infrastructure from EndowSwap and its predecessors.

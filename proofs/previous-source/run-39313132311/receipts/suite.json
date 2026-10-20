@@ -1,0 +1,49 @@
+[
+  {
+    "id": "gap",
+    "args": [
+      "mohammadisina1988-jpg/cross-ledger",
+      "voucher-market",
+      [
+        "0x9d91eb7b399f174b5a21a86a663996358c8dee10",
+        "0x119763a40fcea5c77e70292c55b45bd43c8240e5",
+        "0xf0f0f8a067b86e0c8454405bda3bf6db93de086a"
+      ],
+      [
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        100
+      ],
+      [
+        "The described units may be transferred to another holder without issuer approval.",
+        "The described units remain valid indefinitely without any expiry deadline."
+      ],
+      [
+        "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/open-zero.json",
+        "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/empty-one.json",
+        "https://raw.githubusercontent.com/mohammadisina1988-jpg/cross-ledger/0506c82947ffb175944e9e4f51bd4b9e9362bc97/records/buyer-two.json"
+      ],
+      [
+        "d443c21169c63b485b068fb9f56f9a4a73648cb27ac979eca68d8bb7b3cf2ee8",
+        "242e462b52dfad04a7435681103871ace40c33391ea296e47dab5e20cffcfffa",
+        "a9aca98dd8c53d2cab0e8f940b5809f124e166e1dda3557ca2797ceac9820eee"
+      ]
+    ],
+    "contract": "0x2990388Fc6c9601d1Ee2b1509CC382605e6fd6EE",
+    "deployment": "0x8fcba1d01715b960f96e8c033b28db4d7f30b4dd1107890c8e66459d0a5dfd92",
+    "accounts": [
+      "0x9d91eb7b399f174b5a21a86a663996358c8dee10",
+      "0x119763a40fcea5c77e70292c55b45bd43c8240e5",
+      "0xf0f0f8a067b86e0c8454405bda3bf6db93de086a"
+    ],
+    "fixture_revision": "0506c82947ffb175944e9e4f51bd4b9e9362bc97",
+    "source_sha256": "d58e663e131b561659fcd60db33565fad27244868d472cc82fb0225d7e03ceee",
+    "network": "studionet",
+    "chain_id": 61999
+  }
+]
